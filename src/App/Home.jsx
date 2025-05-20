@@ -24,11 +24,11 @@ export default function Home() {
       {/* Footer intégré directement dans le canvas */}
 
       <div className="container">
-        <h2>Découvrez nos backgrounds</h2>
+        <h2>Découvre nos backgrounds</h2>
         <p>
-          Explorez notre collection de backgrounds interactifs et trouvez celui
-          qui correspond à votre projet. Cliquez sur un background pour voir
-          plus de détails et obtenir le code.
+          Explore notre collection de backgrounds interactifs et trouve celui
+          qui correspond à ton projet. Clique sur un background pour voir plus
+          de détails et obtenir le code.
         </p>
         <BackgroundGallery />
 
@@ -68,12 +68,12 @@ export default function Home() {
             <div className="legal-text">
               <h4>Éditeur du site</h4>
               <p>{footerData.copyright}</p>
-              <p>Adresse : [Votre adresse]</p>
-              <p>Email : contact@example.com</p>
+
+              <p>Email : chrstn.hmbrt67@outlook.com</p>
 
               <h4>Hébergement</h4>
-              <p>[Nom de l'hébergeur]</p>
-              <p>Adresse : [Adresse de l'hébergeur]</p>
+              <p>GitHub</p>
+              <p>Adresse : https://github.com/</p>
 
               <h4>Propriété intellectuelle</h4>
               <p>

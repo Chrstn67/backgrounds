@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import ParticlesBackground from "./ParticlesBackground"
-import "../Styles/HeroSection.css"
+import ParticlesBackground from "./ParticlesBackground";
+import "../Styles/HeroSection.css";
 
 export default function HeroSection() {
   return (
@@ -11,11 +11,21 @@ export default function HeroSection() {
       </div>
       <div className="content">
         <h1>Galerie de Backgrounds</h1>
-        <p>Trouvez le background parfait pour votre site web. Prévisualisez et copiez le code en un seul clic.</p>
-        <button onClick={() => document.querySelector(".gallery").scrollIntoView({ behavior: "smooth" })}>
+        <p>
+          Trouve le background parfait pour ton site web. Prévisualise et copie
+          le code en un seul clic.
+        </p>
+        <p>Tu as aussi la possibilité d'en proposer !</p>
+        <button
+          onClick={() =>
+            document
+              .querySelector(".gallery")
+              .scrollIntoView({ behavior: "smooth" })
+          }
+        >
           Explorer
         </button>
       </div>
     </div>
-  )
+  );
 }
